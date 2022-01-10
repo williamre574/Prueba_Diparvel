@@ -1,0 +1,104 @@
+html {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+*,
+*:after,
+*:before{
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+
+}
+a{
+	color: #01579b;
+	transition: color 0.3s ease;
+}
+a:hover{
+	color: #00b0ff;
+}
+
+.grid-fluid {
+
+	margin: 1rem auto;
+	max-width: 90%;
+	display: grid;
+	grid-template-columns:repeat(auto-fit, min(280px, 1fr)) ;
+}
+.form-search{
+	margin: auto;
+	text-align: center;
+}
+
+.form-search input {
+	display: block;
+	margin: auto;
+	padding: 0.25rem;
+	border-radius: 0.25rem;
+	font-size: 1rem;
+
+}
+
+.loader {
+	
+	margin: 1rem auto;
+	display: block;
+	width: 4rem;
+	height: 4rem;
+}
+
+.header > *{
+margin: 1rem auto;
+}
+.header h1{
+	text-align: center;
+}
+.post-card {
+
+	margin: 1rem auto;
+	padding: 1rem;
+	width: 80%;
+	background-color: #eceff1;
+}
+
+.post-card p {
+	display: flex;
+	justify-content: space-between;
+}
+
+.post-card img {
+	max-width: 75%;
+	margin: 1rem auto;
+	padding: 1rem;
+}
+
+.post-page {
+	margin: 1rem auto;
+	padding: 1rem;
+	width: 80%;
+	background-color: #eceff1;
+}
+.post-page > aside {
+	margin: auto;
+	width: 60%;
+	text-align: center;
+
+}
+
+.post-page hr{
+	border: thin solid #cfd8dc ;
+	margin: 2rem auto;
+	width: 80%;
+}
+
+.post-page article {
+	padding: 0 2rem;
+	
+}
+
+
